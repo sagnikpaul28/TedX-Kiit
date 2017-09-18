@@ -1,3 +1,45 @@
+/*
+header {
+    background: url(../images/largeImage.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+html, body {height: 100%;}
+*/
+/*
+.container
+{
+    overflow-y:auto;
+    height:100%;
+}​
+
+ header, .navbar, .container{
+     height: 100%;
+ }*/
+.navbar-toggle{
+    background-color: bisque;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav a:hover {
+    color: red !important;
+    background-color: transparent;
+}
+
+.btn, .btn:hover, .btn:focus, .btn:active, .btn.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+/*shruti*/
 body{
     background-image: url("../HTML/WEB_images/city4.jpg");
     background-position: center;
