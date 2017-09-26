@@ -23,10 +23,6 @@ html, body {height: 100%;}
 #section1, #section2{
     height: 100vh;
 }
-.abc{
-    position: relative;
-    margin-top: 100%;
-}
 .navbar-toggle{
     background-color: bisque;
 }
