@@ -19,6 +19,10 @@ html, body {height: 100%;}
  header, .navbar, .container{
      height: 100%;
  }*/
+
+#section1, #section2{
+    height: 100vh;
+}
 .navbar-toggle{
     background-color: bisque;
 }
