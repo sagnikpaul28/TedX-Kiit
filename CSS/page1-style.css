@@ -46,7 +46,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
     height: 100%;
 }
 
@@ -56,11 +55,13 @@ body{
     opacity: 1;
     cursor: pointer;
 }
+
+/*section2 css*/
 .divider {
 
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
-    font-family: 'Encode Sans Condensed', sans-serif;
+    /*font-family: 'Encode Sans Condensed', sans-serif;*/
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 0 auto;
     padding: 20%;
@@ -80,7 +81,6 @@ body{
     opacity: 0.9;
 
 }
-
 .animation-element {
     opacity: 0;
     position: relative;
@@ -181,3 +181,74 @@ body{
 }
 
 
+/*end sliding elements*/
+
+
+/*sponsors carousel*/
+
+.card {
+    opacity: 0.9;
+    background:WHITE;
+    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding:0px;
+    margin-top:5em;
+    overflow:hidden;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-body{
+    margin:5em;
+
+}
+
+.card-header-grey{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    width: 50%;
+    background-color:#ab1b09;
+    color:#FFFFFF;
+    border-bottom:3px solid #BBB;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:0px;
+    margin-top:0px;
+    overflow:hidden;
+    -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+}
+
+.card-action-grey{
+    color:#424242;
+
+}
+.pull-left {
+    float: left;
+}
+
+.pull-none {
+    float: none !important;
+}
+
+.pull-right {
+    float: right;
+}
+
+
+
+.carousel-indicators li{
+    border: 1px solid #ab1b09;
+}
+.carousel-indicators .active{
+    background-color:#ab1b09 ;
+}
+.logos{
+    text-align: center;
+}
+
+/*end sponsors carousel*/
