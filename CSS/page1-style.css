@@ -20,11 +20,13 @@ html, body {height: 100%;}
      height: 100%;
  }*/
 
-#section1, #section2, #section4{
-    height: 100vh;
-    margin-bottom: 80px;
+.bottomSpace{
+    padding-bottom: 10rem;
 }
 
+#section1, #section2{
+    height: 100vh;
+}
 .navbar-toggle{
     background-color: bisque;
 }
@@ -32,11 +34,6 @@ html, body {height: 100%;}
 a{
     color: white;
     text-decoration: none;
-
-}
-.navigation_links{
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 22px;
 }
 
 ul.nav a:hover {
@@ -60,19 +57,9 @@ body{
     height: 100%;
 }
 
-.part1:hover {
-    /*-webkit-transform: translate(20px,-50px);*/
-    /*transform: translate(20px,-50px);*/
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
-    opacity: 1;
-    cursor: pointer;
-}
-.part2:hover {
-    /*-webkit-transform: translate(20px,-50px);*/
-    /*transform: translate(20px,-50px);*/
-    -webkit-transform:scale(1.2);
-    transform:scale(1.2);
+.divider:hover {
+    -webkit-transform: translate(20px,-50px);
+    transform: translate(20px,-50px);
     opacity: 1;
     cursor: pointer;
 }
@@ -80,7 +67,8 @@ body{
 /*section2 css*/
 .divider {
 
-
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
     /*font-family: 'Encode Sans Condensed', sans-serif;*/
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 0 auto;
@@ -94,16 +82,11 @@ body{
     background-color:white;
     opacity: 0.8;
 
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-
 }
 .part2{
     color: #FFFFFF;
     background-color:black;
     opacity: 0.9;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
 
 }
 .animation-element {
@@ -220,7 +203,7 @@ body{
     display: -ms-flexbox;
     display: flex;
     padding:0px;
-    margin-top:0em;
+    margin-top:5em;
     overflow:hidden;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Roboto', sans-serif;
@@ -229,7 +212,7 @@ body{
 }
 
 .card-body{
-    margin:6em;
+    margin:5em;
 
 }
 
@@ -275,19 +258,5 @@ body{
 .logos{
     text-align: center;
 }
-
-.sponsors_heading{
-    font-family: 'Ubuntu Condensed', sans-serif;
-    text-align: left;
-    margin: 35px;
-    font-size: 350%;
-
-}
-/*.sponsors_heading_outer{*/
-    /*background-color: black;*/
-    /*width: 100%;*/
-    /*opacity: 0.9;*/
-    /*padding: 20px;*/
-/*}*/
 
 /*end sponsors carousel*/
