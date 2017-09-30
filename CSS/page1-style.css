@@ -63,16 +63,16 @@ body{
 .part1:hover {
     /*-webkit-transform: translate(20px,-50px);*/
     /*transform: translate(20px,-50px);*/
-    -webkit-transform:scale(1.06);
-    transform:scale(1.06);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
     opacity: 1;
     cursor: pointer;
 }
 .part2:hover {
     /*-webkit-transform: translate(20px,-50px);*/
     /*transform: translate(20px,-50px);*/
-    -webkit-transform:scale(1.06);
-    transform:scale(1.06);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
     opacity: 1;
     cursor: pointer;
 }
