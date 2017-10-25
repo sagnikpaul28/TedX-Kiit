@@ -1,0 +1,14 @@
+/*about page*/
+body{
+    background-image: url("../HTML/WEB_images/ted1.jpg") !important;
+}
+
+
+.sectionTed{
+    background-color: rgba(230,43,30,0.7);
+
+}
+
+.sectionKiit{
+    background-color: rgba(0,0,0,0.7);
+}
