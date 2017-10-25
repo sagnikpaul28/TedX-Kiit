@@ -44,4 +44,8 @@ $(document).ready(function() {
         }, 1000);
     });
 
+
+// this is script for speakers_2017 page
+
 });
+
