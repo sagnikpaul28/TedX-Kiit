@@ -10,15 +10,15 @@ header {
 html, body {height: 100%;}
 */
 /*
-.container
-{
-    overflow-y:auto;
-    height:100%;
-}​
 
  header, .navbar, .container{
      height: 100%;
  }*/
+.container
+{
+
+    height:100%;
+}​
 
 
 /*Top carousel*/
@@ -70,6 +70,7 @@ body{
 
 .part1, .part2 {
     transform: translateZ(0);
+
 }
 
 .part1:hover {
@@ -491,3 +492,31 @@ footer a,footer a:hover{
 }
 
 /*ends here*/
+
+/*show text on hover speakers image*/
+.text {
+    color: white;
+    font-size: 24px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-weight: 300;
+}
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom:0;
+    left: 0;
+    right: 0;
+    height:100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+
+}
+.box:hover .overlay {
+    opacity: 0.8;
+}
