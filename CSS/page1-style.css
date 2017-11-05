@@ -1,22 +1,5 @@
-/*
-header {
-    background: url(../images/largeImage.jpg);
-    background-position: center top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
-html, body {height: 100%;}
-*/
-/*
-
- header, .navbar, .container{
-     height: 100%;
- }*/
 .container
 {
-
     height:100%;
 }​
 
@@ -60,7 +43,6 @@ ul.nav a:hover {
 
 /*shruti*/
 body{
-    background-image: url("../HTML/WEB_images/city4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,8 +368,8 @@ body{
 .gal-container .description{
     position: relative;
     height: 47px;
-    top: -47px;
-    padding: 10px 25px;
+    /*top: -47px;
+    padding: 10px 25px;*/
     background-color: rgba(0,0,0,0.5);
     color: #fff;
     text-align: center;
@@ -400,7 +382,7 @@ body{
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 .gal-container .modal.fade .modal-dialog {
-    -webkit-transform: scale(0.1);
+    /*-webkit-transform: scale(0.1);
     -moz-transform: scale(0.1);
     -ms-transform: scale(0.1);
     transform: scale(0.1);
@@ -408,7 +390,7 @@ body{
     opacity: 0;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    transition: all 0.3s;*/
 }
 
 .gal-container .modal.fade.in .modal-dialog {
@@ -436,8 +418,8 @@ i.red{
     color:#BC0213;
 }
 .gal-container{
-    padding-top :75px;
-    padding-bottom:75px;
+    /*padding-top :75px;
+    padding-bottom:75px;*/
 }
 footer{
     font-family: 'Quicksand', sans-serif;
