@@ -30,9 +30,9 @@ body{
 }
 
 a{
-    color: white;
+    color:black;
     text-decoration: none;
-
+    color: white;
 }
 .navigation_links{
     font-family: 'Ubuntu Condensed', sans-serif;
@@ -104,7 +104,7 @@ body{
 .part2{
     color: #FFFFFF;
     background-color:black;
-    opacity: 0.9;
+    opacity: 0.8;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 
@@ -215,6 +215,7 @@ body{
 /*sponsors carousel*/
 
 .card {
+    position:absolute;
     opacity: 0.9;
     background:WHITE;
     display: block;
@@ -284,6 +285,7 @@ body{
     text-align: left;
     margin: 35px;
     font-size: 350%;
+    color: white;
 
 }
 /*.sponsors_heading_outer{*/
@@ -306,7 +308,7 @@ body{
     padding: 3px;
 }
 .gal-item .box{
-    height: 250px;
+    height: 195px;
     overflow: hidden;
 }
 .box img{
