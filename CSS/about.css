@@ -1,16 +1,21 @@
 /*about page*/
+
 body{
-    background-image: url("../HTML/WEB_images/ted1.jpg") !important;
+    background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
-
-
 .sectionTed{
-    background-color: rgba(230,43,30,0.7);
+    background: #F00000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 .sectionKiit{
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.9);
 }
 
 .sec21{
