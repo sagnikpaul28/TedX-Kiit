@@ -16,7 +16,7 @@ body{
 /*Top carousel*/
 .slider, .carousel, .carousel-inner, .item, .ht{
     transform: translateZ(0);
-    height: 80vh;
+    height: 100vh;
 }
 
 /*Every section height*/
@@ -215,7 +215,7 @@ body{
 /*sponsors carousel*/
 
 .card {
-    position:absolute;
+    position:fixed;
     opacity: 0.9;
     background:WHITE;
     display: block;
