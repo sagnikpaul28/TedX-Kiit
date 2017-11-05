@@ -442,6 +442,16 @@ footer a,footer a:hover{
 
 /*speakers_2017 stying*/
 
+.show_event{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 25px;
+    padding: 10%;
+
+}
+
 .show_speakers_info{
     background-color: black;
     color: white;
@@ -450,6 +460,8 @@ footer a,footer a:hover{
     font-size: 25px;
     padding: 10%;
 }
+
+
 .profile-header-container{
     margin: 0 auto;
     text-align: center;
