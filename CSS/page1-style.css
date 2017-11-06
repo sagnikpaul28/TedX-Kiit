@@ -1,11 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background: #870000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #000000, #870000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #000000, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
-
 
 .container
 {
@@ -16,7 +18,7 @@ body{
 /*Top carousel*/
 .slider, .carousel, .carousel-inner, .item, .ht{
     transform: translateZ(0);
-    height: 100vh;
+    height: 70vh;
 }
 
 /*Every section height*/
@@ -524,4 +526,29 @@ footer a,footer a:hover{
 }
 .box:hover .overlay {
     opacity: 0.8;
+}
+
+#navbar {
+    margin-right: 0;
+}
+
+#arrow-scroll-to-section-2 {
+    padding: 0;
+}
+
+.footer-copyright {
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 20px;
+    color: #eee;
+    font-weight: 600;
+    font-size: 1.25em;
+}
+
+.footer-copyright a {
+    padding: 10px 25px;
+}
+
+.footer-copyright a img {
+    height: 50px;
 }
