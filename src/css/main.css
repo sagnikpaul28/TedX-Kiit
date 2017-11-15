@@ -249,17 +249,13 @@ body{
 /*sponsors carousel*/
 
 .card {
-    position:fixed;
     opacity: 0.9;
-    background:WHITE;
+    background: #FFFFFF;
     display: block;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    padding:0px;
-    margin-top:0em;
-    overflow:hidden;
+    padding: 0px;
+    margin-top: 0em;
+    overflow: hidden;
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Open Sans', sans-serif;
     -webkit-transition: box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -268,7 +264,6 @@ body{
 
 .card-body{
     margin:6em;
-
 }
 
 .card-header-grey{
