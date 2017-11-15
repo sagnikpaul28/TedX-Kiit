@@ -2,76 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
+    <title>TEDx KIIT University</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen">
     <script src="script1.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,500|Ubuntu+Condensed">
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
-
-<script>
-    $(function() {
-        $('#showdiv1').click(function () {
-            $('div[id^=div]').hide();
-            $('#div1').show();
-            $('html, body').animate({ scrollTop: $("#div1").offset().top},
-                'slow');
-        });
-
-        $('#showdiv2').click(function() {
-            $('div[id^=div]').hide();
-            $('#div2').show();
-            $('html, body').animate({ scrollTop: $("#div2").offset().top},
-                'slow');
-        });
-
-        $('#showdiv3').click(function() {
-            $('div[id^=div]').hide();
-            $('#div3').show();
-            $('html, body').animate({ scrollTop: $("#div3").offset().top},
-                'slow');
-        });
-
-        $('#showdiv4').click(function() {
-            $('div[id^=div]').hide();
-            $('#div4').show();
-            $('html, body').animate({ scrollTop: $("#div4").offset().top},
-                'slow');
-        });
-
-    })
-
-    $(function () {
-
-        $('.scrollToTop').bind("click", function () {
-            $('html, body').animate({ scrollTop: 0 }, 1200);
-            return false;
-        });
-    });
-
-
-</script>
-
-
 <body>
-
-<div class="container">
-
-    <div class="col-md-12">
-
+    <div class="header">
         <div class="navbar">
-            <a class="navbar-brand navbar-left" href="page1.html">
-                <img src="image/ted.png" style="height:60px; width:auto" class="img-responsive">
+            <a class="navbar-brand navbar-left" href="page1.html" style="height: auto;max-width: 75%;">
+                <img src="image/ted.png" style="max-height: 50px;max-width: 100%;" class="img-responsive">
             </a>
             <div class="navbar-header">
                 <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar">
@@ -81,8 +29,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-
-            <div id="navbar" class="collapse navbar-collapse navbar-right">
+            <div id="navbar" class="collapse navbar-collapse navbar-right" style="padding: 15px;">
                 <ul class="nav navbar-nav">
                     <li class="active navigation_links"><a href="#">Home</a></li>
                     <li class="dropdown">
@@ -114,202 +61,79 @@
                 </ul>
             </div>
         </div>
-
     </div>
-
-
-    <div id="section3">
-
-
-        <div class="animation-element slide-left testimonial">
-            <div class="row text-center sponsors_heading_outer">
-
-                <h1 class="sponsors_heading"><a href="https://twitter.com/asyaddien" target="_blank">TEDx EVENT</a></h1>
+    <div class="container">
+        <div id="section3">
+            <div class="show_event">
+                <div class="animation-element slide slide-left testimonial">
+                    <div class="row text-center">
+                        <h1 class="heading-1">TEDx Event</h1>
+                    </div>
+                </div>
+                <div class="text-justify">
+                    this is first.......
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </div>
             </div>
         </div>
 
-        <div  class="show_event">
-
-
-            this is first.......
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
+        <div id="section3">
+            <div class="animation-element slide slide-left testimonial">
+                <div class="row text-center">
+                    <h1 class="heading-1">Speakers</h1>
+                </div>
+            </div>
+            <div class="container gal-container">
+                <a href="#" data-target="#div1" class="gal-item show_info">
+                    <div class="box" style="background-image: url('image/large.jpg')">
+                        <div class="overlay">
+                            <div class="text">
+                                <span class="name">Speakers Name</span>
+                                <br />
+                                <em class="desg">Designation</em>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
 
-
-
-        <div class="animation-element slide-left testimonial">
-            <div class="row text-center sponsors_heading_outer">
-
-                <h1 class="sponsors_heading"><a href="https://twitter.com/asyaddien" target="_blank">Speakers</a></h1>
-            </div>
-        </div>
-
-
-        <div class="container gal-container">
-
-
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#3" id="showdiv1">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#4" id="showdiv2">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/4.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#5" id="showdiv3">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/5.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#3" id="showdiv4">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#6">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/6.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#7">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#8">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/4.jpg">
-                    </a>
-
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-4 co-xs-12 gal-item">
-                <div class="box">
-                    <a href="#" data-toggle="modal" data-target="#7">
-                        <img src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg">
-                    </a>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div id="div1" class="show_speakers_info" style="display:none;">
-
-        <div class="profile-header-container">
-            <div class="profile-header-img">
-                <img class="img-circle" src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg" />
-                <!-- badge -->
-                <div class="profile-heading">
-                    <i>SPEAKER'S NAME
+        <div id="div1" class="show_speakers_info" style="display:none;">
+            <div class="profile-header-container">
+                <div class="profile-header-img">
+                    <img class="img-circle" src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg" />
+                    <!-- badge -->
+                    <div class="profile-heading">
+                        <i>SPEAKER'S NAME
                         <p>Lorem ipsum Lorem ipsum Lorem ipsum</p></i>
+                    </div>
                 </div>
             </div>
-
-        </div>
-            this is first.......
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-        <div align = "center">
-            <!--<a href="" id="scrollToTop">&#x25B2;</a>-->
-            <i class="fa fa-chevron-up scrollToTop" style="font-size:48px"></i>
-        </div>
-
-    </div>
-
-    <div id="div2" class="show_speakers_info" style="display:none;">
-
-        <div class="profile-header-container">
-            <div class="profile-header-img">
-                <img class="img-circle" src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg" />
-                <!-- badge -->
-                <div class="profile-heading">
-                    <i>SPEAKER'S NAME
-                        <p>Lorem ipsum Lorem ipsum Lorem ipsum</p></i>
-                </div>
+            <div class="text-justify">
+                this is first.......
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             </div>
-
-        </div>
-        this is second.....................................
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-        <div align = "center">
-            <!--<a href="" id="scrollToTop">&#x25B2;</a>-->
-            <i class="fa fa-chevron-up scrollToTop" style="font-size:48px"></i>
         </div>
     </div>
-
-    <div id="div3" class="show_speakers_info" style="display:none;">
-
-        <div class="profile-header-container">
-            <div class="profile-header-img">
-                <img class="img-circle" src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg" />
-                <!-- badge -->
-                <div class="profile-heading">
-                    <i>SPEAKER'S NAME
-                        <p>Lorem ipsum Lorem ipsum Lorem ipsum</p></i>
-                </div>
-            </div>
-
-        </div>
-        this is third...............................
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-        <div align = "center">
-            <!--<a href="" id="scrollToTop">&#x25B2;</a>-->
-            <i class="fa fa-chevron-up scrollToTop" style="font-size:48px"></i>
-        </div>
+    <div class="footer-copyright">
+        <a href="https://kiit.ac.in/"><img src="image/kiit.png"></a>
+        <a href="https://kiss.ac.in/"><img src="image/kiss.png"></a>
+        <br><br>
+        Copyright 2017 &copy; Pratyush Malviya
     </div>
-
-    <div id="div4" class="show_speakers_info" style="display:none;">
-        <div class="profile-header-container">
-            <div class="profile-header-img">
-                <img class="img-circle" src="http://nabeel.co.in/files/bootsnipp/gallery/7.jpg" />
-                <!-- badge -->
-                <div class="profile-heading">
-                    <i>SPEAKER'S NAME
-                        <p>Lorem ipsum Lorem ipsum Lorem ipsum</p></i>
-                </div>
-            </div>
-
-        </div>
-        this is fourth............
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-        <div align = "center">
-            <!--<a href="" id="scrollToTop">&#x25B2;</a>-->
-            <i class="fa fa-chevron-up scrollToTop" style="font-size:48px"></i>
-        </div>
-    </div>
-</div>
+    <script>
+        $(function() {
+            $('.show_info').click(function(ev) {
+                ev.preventDefault();
+                var infoBox = $($(this).data('target'));
+                infoBox.show();
+                $('html, body').animate({
+                    scrollTop: infoBox.offset().top
+                }, 'slow');
+            });
+        });
+    </script>
 </body>
 </html>

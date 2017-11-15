@@ -21,7 +21,7 @@ body{
 /*Top carousel*/
 .slider, .carousel, .carousel-inner, .item, .ht{
     transform: translateZ(0);
-    max-height: 80vh;
+    max-height: 70vh;
     max-width: 100%;
 }
 
@@ -309,14 +309,6 @@ body{
     text-align: center;
 }
 
-.sponsors_heading{
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-    margin: 35px;
-    font-size: 350%;
-    color: white;
-
-}
 /*.sponsors_heading_outer{*/
     /*background-color: black;*/
     /*width: 100%;*/
@@ -475,10 +467,16 @@ footer a,footer a:hover{
     transform:scale(1.1);
     z-index: 5;
 }
+
 .show_info {
+    text-decoration: none;
     transform: translateZ(0);
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
+}
+
+.show_info:hover {
+    text-decoration: none;
 }
 
 
@@ -486,12 +484,10 @@ footer a,footer a:hover{
 /*speakers_2017 stying*/
 
 .show_event{
-    background-color: black;
     color: white;
     opacity: 0.8;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    padding: 10%;
+    padding: 15px;
 
 }
 
@@ -596,4 +592,5 @@ footer a,footer a:hover{
 .heading-1 {
     font-size: 3.5em;
     margin-bottom: 30px;
+    text-transform: uppercase;
 }
