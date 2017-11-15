@@ -4,7 +4,7 @@
 
 body{
     color: #FFFFFF;
-    font-size: 12pt;
+    font-size: 14pt;
     background: #ad0000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #000000, #ad0000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #000000, #ad0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -492,12 +492,11 @@ footer a,footer a:hover{
 }
 
 .show_speakers_info{
-    background-color: black;
+    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    opacity: 0.8;
     font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    padding: 10%;
+    padding: 30px;
 }
 
 
@@ -506,13 +505,8 @@ footer a,footer a:hover{
     text-align: center;
 }
 
-.profile-header-img {
-    padding: 34px;
-}
-
-.profile-header-img > img.img-circle {
-    width: 100px;
-    height: 100px;
+.profile-header-img img {
+    height: 200px;
     /*border: 2px solid #51D2B7;*/
 }
 
@@ -520,7 +514,7 @@ footer a,footer a:hover{
     margin-top: 3px;
 }
 .profile-heading{
-    font-size: 30px;
+    padding: 15px;
     color: red;
 }
 
@@ -577,8 +571,6 @@ footer a,footer a:hover{
     text-align: center;
     padding: 20px;
     color: #eee;
-    font-weight: 600;
-    font-size: 1.25em;
 }
 
 .footer-copyright a {
@@ -592,5 +584,11 @@ footer a,footer a:hover{
 .heading-1 {
     font-size: 3.5em;
     margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.heading-2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
     text-transform: uppercase;
 }
