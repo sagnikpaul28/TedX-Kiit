@@ -36,16 +36,5 @@ $(document).ready(function() {
     })
     //trigger our scroll event on initial load
     $(window).trigger('scroll');
-
-    $('#arrow-scroll-to-section-2').click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({
-            scrollTop: $("#section2").offset().top
-        }, 1000);
-    });
-
-
-// this is script for speakers_2017 page
-
 });
 
