@@ -37,14 +37,3 @@ jQuery(document).ready(function() {
     jQuery(window).trigger('scroll');
 });
 
-jQuery(function() {
-            jQuery('.show_info').click(function(ev) {
-                ev.preventDefault();
-                jQuery('.show_speakers_info').hide();
-                var infoBox = jQuery(jQuery(this).data('target'));
-                infoBox.show();
-                jQuery('html, body').animate({
-                    scrollTop: infoBox.offset().top
-                }, 'slow');
-            });
-        });
